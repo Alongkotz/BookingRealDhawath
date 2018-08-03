@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrain"
+    tools:context=".CartActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/button_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorgray"
+        app:itemIconTint="@android:color/white"
+        app:menu="@menu/show_order_buttom_menu"
+        app:itemTextColor="@android:color/white">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

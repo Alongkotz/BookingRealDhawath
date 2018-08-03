@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+
+        <item android:id="@+id/nav_suggection"
+            android:icon="@drawable/ic_filter_frames_black_24dp"
+            android:title="คำแนะนำ"/>
+
+
+        <item android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_border_black_24dp"
+            android:title="ชื่นชอบ"/>
+
+        <item android:id="@+id/nav_order"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:title="รายการจอง"/>
+        <item android:id="@+id/nav_sign_in"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="เข้าสู่ระบบ"/>
+        <item android:id="@+id/nav_sign_outt"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="ออกจากระบบ"/>
+
+
+    </group>
+</menu>

@@ -1,0 +1,59 @@
+package com.example.asus.bookingreal.Model;
+
+public class Order {
+    private long OrderId;
+    private int OrderStatus;
+    private String OrderDetail,OrderComment,UserPhone,OrderSubject;
+
+    public Order() {
+
+    }
+
+    public long getOrderId() {
+        return OrderId;
+    }
+
+    public String getOrderSubject() {
+        return OrderSubject;
+    }
+
+    public void setOrderSubject(String orderSubject) {
+        OrderSubject = orderSubject;
+    }
+
+    public void setOrderId(long orderId) {
+        OrderId = orderId;
+    }
+
+    public int getOrderStatus() {
+        return OrderStatus;
+    }
+
+    public void setOrderStatus(int orderStatus) {
+        OrderStatus = orderStatus;
+    }
+
+    public String getOrderDetail() {
+        return OrderDetail;
+    }
+
+    public void setOrderDetail(String orderDetail) {
+        OrderDetail = orderDetail;
+    }
+
+    public String getOrderComment() {
+        return OrderComment;
+    }
+
+    public void setOrderComment(String orderComment) {
+        OrderComment = orderComment;
+    }
+
+    public String getUserPhone() {
+        return UserPhone;
+    }
+
+    public void setUserPhone(String userPhone) {
+        UserPhone = userPhone;
+    }
+}

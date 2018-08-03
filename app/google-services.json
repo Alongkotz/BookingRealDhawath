@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35684992639",
+    "firebase_url": "https://bookingreal-961b1.firebaseio.com",
+    "project_id": "bookingreal-961b1",
+    "storage_bucket": "bookingreal-961b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35684992639:android:552ad6b370f0eb05",
+        "android_client_info": {
+          "package_name": "com.example.asus.bookingreal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35684992639-djv5l7s53buififi5golgl78s2t965n6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.bookingreal",
+            "certificate_hash": "58756bfdddf8f5be96b0b481042ae0a01e991068"
+          }
+        },
+        {
+          "client_id": "35684992639-e31dotcormrd5bucb8sefukilcvm2m4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDplkhsi0RnCCP6d6fwntHlVSar9mhD6nU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35684992639-e31dotcormrd5bucb8sefukilcvm2m4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

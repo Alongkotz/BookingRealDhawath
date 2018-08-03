@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * กรุณาใส่ชื่อแผนกของท่าน"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/red"
+        android:padding="4dp"
+        android:layout_margin="4dp" />
+
+    <EditText
+        android:id="@+id/edt_comment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorPurple"
+        android:hint="กรุณาระบุแผนกของท่าน ..."
+        android:padding="8dp"
+        android:textColor="@color/colortranspentWhite"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" * ระบุหัวข้อประชุม"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/red"
+        android:padding="4dp"
+        android:layout_margin="4dp" />
+
+    <EditText
+        android:id="@+id/edt_comment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorPurple"
+        android:hint="กรุณาระบุหัวข้อประชุม ..."
+        android:padding="8dp"
+        android:textColor="@color/colortranspentWhite"
+        android:textColorHint="@color/white" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/rdi_user_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="ใช้เบอร์โทรศัพท์เดิม"
+            android:textColor="@color/colorForest"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/rdi_other_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ใช้เบอร์โทรศัพท์ใหม่"
+            android:textColor="@color/colorForest"
+            android:textSize="16dp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edt_comment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorPurple"
+        android:enabled="false"
+        android:hint="โปรดระบุเบอร์โทรศัพท์ใหม่..."
+        android:padding="8dp"
+        android:textColor="@color/colortranspentWhite"
+        android:textColorHint="@color/white" />
+
+
+</LinearLayout>
